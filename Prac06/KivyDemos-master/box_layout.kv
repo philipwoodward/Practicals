@@ -4,9 +4,11 @@ BoxLayout:
     Button:
         text: 'Clear'
     Button:
+        text: 'two'
         textInput:
-            id: input_name
-            text: "Hello " + self.root.ids.input_name.text
+        id: input_name
+        text:
+        #"Hello " + self.root.ids.input_name.text
     Button:
         text: 'Greet'
         on_press: app.handle_greet()
